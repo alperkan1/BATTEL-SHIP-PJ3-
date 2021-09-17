@@ -21,4 +21,12 @@ def create_board(board):
     for row in board:
         print("%d|%s|" % (rows, "/" . join(row)))
         rows += 1
-print(create_board())
+"""
+Creating the ships to sink for the game 
+"""        
+def ships():
+    for ship in range(5):
+        ship_verticle, ship_horizontal = randint(0,7), randint(0,7)
+        while board[ship_verticle][ship_horizontal] == "X":
+            ship_verticle, ship_horizontal = randint(0,7), randint(0,7)
+        board[ship_verticle][ship_horizontal] = "X"

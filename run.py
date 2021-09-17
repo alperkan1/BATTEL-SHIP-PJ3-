@@ -1,5 +1,6 @@
 from random import randint
 
+
 """
 FIRST THE 2 BOARDS CREAT THE BOARDS
 """
@@ -30,3 +31,17 @@ def ships():
         while board[ship_verticle][ship_horizontal] == "X":
             ship_verticle, ship_horizontal = randint(0,7), randint(0,7)
         board[ship_verticle][ship_horizontal] = "X"
+
+"""
+To define the location of the ships in the game 
+"""
+
+def location_ship():
+    row = input("Enter number between 1-8")
+    while row not in "12345678":
+        print("Wrong input number out side of 1-8")
+        row = input("Enter number between 1-8")
+    column = input("Enter a letter between a-h").lower()
+    while column not in "abcdefgh":
+        print("Wrong input letter should be between a-h").lower()
+        input("Enter a letter between a-h").lower()

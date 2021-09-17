@@ -1,3 +1,5 @@
+from random import randint
+
 """
 FIRST THE 2 BOARDS CREAT THE BOARDS
 """
@@ -12,3 +14,11 @@ numbers = {"a":0, "b":1, "c":3, "d":4, "e":5, "f":5, "g":6, "h":7}
 """
 printing the boards
 """
+def create_board(board):
+    print('a b c d e f g h')
+    print("---------------")
+    rows = 1
+    for row in board:
+        print("%d|%s|" % (rows, "/" . join(row)))
+        rows += 1
+print(create_board())

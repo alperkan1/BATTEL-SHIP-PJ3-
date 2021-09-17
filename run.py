@@ -37,14 +37,14 @@ To define hiting the location of the ships in the game
 """
 
 def location_ship():
-    row = input("Enter number between 1-8")
-    while row not in "12345678" or ValueError:
+    row = input("Enter number between 1-8 \n")
+    while row not in "12345678":
         print("Wrong input number out side of 1-8")
         row = input("Enter number between 1-8")
-    column = input("Enter a letter between a-h").lower()
-    while column not in "abcdefgh" or ValueError:
-        print("Wrong input letter should be between a-h").lower()
-        input("Enter a letter between a-h").lower()
+    column = input("Enter a letter between a-h \n").lower()
+    while column not in "abcdefgh":
+        print("Wrong input letter should be between a-h")
+        column = input("Enter a letter between a-h \n").lower()
     return int(row) - 1, numbers[column]
 
 """
@@ -61,4 +61,27 @@ def ship_hit(board):
 
 ships(HIS_BOARD)
 turns = 12
-create_board(HIS_BOARD)
+while turns > 0:
+    print("TIME for Battle Ship\n")
+    print("Pick your shot")
+    create_board(MY_BOARD)
+    row,column = location_ship()
+    if MY_BOARD[row][column] == "-":
+        print("Thats the same entry try again")
+    elif HIS_BOARD[row][column] =="X":
+        print("HIT!!! you hit my ship :( ")
+        MY_BOARD[row][column] = "X"
+        turns -= 1
+    else:
+        print("HAHAHA you missed my ship :) ")
+        MY_BOARD[row][column] = "-"
+        turns -= 1
+    if ship_hit(MY_BOARD) == 5:
+        print("YOU SANK MY BATTLE SHIPS WINNER\n")
+        break
+    print("Turns Left:  " + str(turns))
+    print("-----------------------------------------------")
+    if turns == 0:
+        print("game over restart")
+
+

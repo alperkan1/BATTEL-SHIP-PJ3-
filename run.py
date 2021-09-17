@@ -7,7 +7,7 @@ HIS_BOARD = [[" "] * 8 for x in range (8)]
 """
 converting the numbers to letter
 """
-numbers = {"a":0, "b":1, "c":3, "d":4, "e":5, "f":5, "g":6, "h":7, "k":8}
+numbers = {"a":0, "b":1, "c":3, "d":4, "e":5, "f":5, "g":6, "h":7}
 
 """
 printing the boards

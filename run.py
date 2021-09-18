@@ -10,14 +10,14 @@ HIS_BOARD = [[" "] * 8 for x in range (8)]
 """
 converting the numbers to letter
 """
-numbers = {"a":0, "b":1, "c":3, "d":4, "e":5, "f":5, "g":6, "h":7}
+numbers = {"a":0, "b":1, "c":2, "d":3, "e":4, "f":5, "g":6, "h":7}
 
 """
 printing the boards
 """
 def create_board(board):
-    print('a b c d e f g h')
-    print("---------------")
+    print('  a b c d e f g h')
+    print("  ---------------")
     rows = 1
     for row in board:
         print("%d|%s|" % (rows, "/". join(row)))
@@ -37,7 +37,7 @@ To define hiting the location of the ships in the game
 """
 
 def location_ship():
-    row = input("Enter number between 1-8 \n")
+    row = input("Enter number between: 1-8 \n")
     while row not in "12345678":
         print("Wrong input number out side of 1-8")
         row = input("Enter number between 1-8")
@@ -51,7 +51,7 @@ def location_ship():
 what happens when you hit a ship
 """
 
-def ship_hit(board):
+def ship_hit(MY_BOARD):
     count = 0
     for row in board:
         for column in row:
@@ -60,6 +60,7 @@ def ship_hit(board):
     return count
 
 ships(HIS_BOARD)
+ships(MY_BOARD)
 turns = 12
 while turns > 0:
     print("TIME for Battle Ship\n")
@@ -68,7 +69,7 @@ while turns > 0:
     row,column = location_ship()
     if MY_BOARD[row][column] == "-":
         print("Thats the same entry try again")
-    elif HIS_BOARD[row][column] =="X":
+    elif MY_BOARD[row][column] =="X":
         print("HIT!!! you hit my ship :( ")
         MY_BOARD[row][column] = "X"
         turns -= 1

@@ -51,38 +51,36 @@ def location_ship():
 what happens when you hit a ship
 """
 
-def ship_hit(MY_BOARD):
-    count = 0
+def ship_hit(board):
+    hit = 0
     for row in board:
         for column in row:
             if column == "X":
-                count += 1
-    return count
+                hit += 1
+    return hit
 
-ships(HIS_BOARD)
 ships(MY_BOARD)
 turns = 12
 while turns > 0:
     print("TIME for Battle Ship\n")
     print("Pick your shot")
-    create_board(MY_BOARD)
-    row,column = location_ship()
-    if MY_BOARD[row][column] == "-":
+    create_board(HIS_BOARD)
+    row, column = location_ship()
+    if HIS_BOARD[row][column] == "-":
         print("Thats the same entry try again")
     elif MY_BOARD[row][column] =="X":
         print("HIT!!! you hit my ship :( ")
-        MY_BOARD[row][column] = "X"
+        HIS_BOARD[row][column] = "X"
         turns -= 1
     else:
         print("HAHAHA you missed my ship :) ")
-        MY_BOARD[row][column] = "-"
+        HIS_BOARD[row][column] = "-"
         turns -= 1
-    if ship_hit(MY_BOARD) == 5:
+    if ship_hit(HIS_BOARD) == 5:
         print("YOU SANK MY BATTLE SHIPS WINNER\n")
         break
     print("Turns Left:  " + str(turns))
     print("-----------------------------------------------")
     if turns == 0:
         print("game over restart")
-
-
+        break

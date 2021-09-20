@@ -17,11 +17,11 @@
 3. [Technical Design](#3-technical-design)
    1. [Flowchart](#i-flowchart)
 4. [Features](#3-Features)
-   1. [Registry](#i-registry)
-   2. [Start](#ii-start)
-   3. [Question](#iii-question)
-   4. [Reset](#iv-reset)
-   5. [404 Page](#v-404-page)
+   1. [Board](#i-board)
+   2. [Hit](#iihit)
+   3. [Miss](#iii-miss)
+   4. [Lose](#iv-lose)
+   5. [Win](#v-win)
    6. [Features Left To Implement](#vi-features-left-to-implement)
 5. [Technologies Used](#5-technologies-used)
    1. [Code Used](#i-code-used)
@@ -135,7 +135,7 @@
 <img src="assets/IMAGE/lose.JPG">
 </details> 
 
-### v. 404 Page
+### v. Win
 -If you get all 5 ships with in the turn you win.
 - Weh you win you get a congradulations massage. 
 

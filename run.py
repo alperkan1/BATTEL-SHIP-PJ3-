@@ -60,6 +60,7 @@ def ship_hit(board):
     return hit
 
 ships(MY_BOARD)
+create_board(MY_BOARD)
 turns = 12
 while turns > 0:
     print("TIME for Battle Ship\n")

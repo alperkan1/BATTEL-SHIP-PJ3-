@@ -1,9 +1,9 @@
-# GENERAL KNOWLEDGE GAME   
+# BATTLE SHIP   
 (Developer Alper Kanburoglu)
 
-![image of website on other devices](documents/testscreen.JPG)
+![image of website on other devices](assets/IMAGE/BATTLESHIP.JPG)
 
-[link to live page](https://alperkan1.github.io/JSGENERALQUESTIONGAME/index.html)
+[link to live page](https://dashboard.heroku.com/apps/battleshippj3/deploy/github)
 
 # Contents
 
@@ -14,11 +14,8 @@
 2. [Aims](#2-aims)
    1. [User Aims](#i-user-aims)
    2. [Site Creator Aims](#ii-site-creator-aims)
-3. [UX](#3-UX)
-   1. [Structure](#i-structure)
-   2. [Design and Colour](#ii-design-and-colour)
-   3. [Font](#iii-font)
-   4. [Wireframes](#iv-wireframes)
+3. [Technical Design](#3-technical-design)
+   1. [Flowchart](#i-flowchart)
 4. [Features](#3-Features)
    1. [Registry](#i-registry)
    2. [Start](#ii-start)
@@ -48,10 +45,9 @@
 
 ### i. Target User
 
-- A site for people to use to educate staff about a product via questions that they can choose and change.
-- A fun site for general knowledge game.
+- A site for people who are looking to play a simple enjoyable game.
+- A fun site of luck.
 - It is for people who are competitive and like to win.
-- For people to play with others.
 - For people who like a interactive game.
 
 
@@ -59,92 +55,54 @@
 
 #### First Time User 
 
-- As a first time user, I want to be able answers question and be notified if correct or not.
-- As a first time user, I want to be able register my username.
-- As a first time user, I want to be able to re play with questions in a different sequence.
-- As a first time user, I want to be able to get my score.
-- As a first time user, I want to be able to see visually if the answers are correct or not.
-- As a first time user, I want to be able to hear if my answers are correct or not.
+- As a first time user, I want to be able play a game that is different each time.
+- As a first time user, I want to be able to enter my guess easily.
+- As a first time user, I want to be able to know when i win.
+- As a first time user, I want to be able to see the grid locations.
 
 #### Returning User
 
-- As a returning user, I want to be able to change questions depending what the customer wants. 
-- As a returning user, I want to be able to get the quesions in a different order.
-- As a returning user, I want to be able to get my score.
-- As a returning user, I want to be abe to register a new user name.
+- As a returning user, I want to be able to guess new location of ships. 
+- As a returning user, I want to be able to get feedback from the game when i miss and hit.
+- As a returning user, I want to be able to see how many turns i have left.
 
 #### Site Owner 
 
-- As a site owner, I want users to be able to change the questions.
-- As a site owner, I want users to be able to use the same questions but in a different order.
-- As a site owner, I want users to be able to have a easy and quick navigation from one question to another.
-- As a site owner, I want users to be able to see the feedback when they get a correct answer or a wrong answer.
-- As a site owner, I want users to hear the feedback if they have got the correct answer or not.
-- As a site owner, I want users to be able to track the score.
+- As a site owner, I want users to be able to enjoy the game with easy to follow instructions.
+- As a site owner, I want users to be able to get a new location for the ships per game.
+- As a site owner, I want users to be able know when they have hit the ship or missed it.
+- As a site owner, I want users to be able re request the input if the guess has been guessed before.
 
 ### iii. User Requirement
 
-- Score tracking system.
-- To be able to hear feedback if they got the answer right or wrong.
-- To be able to see the feedback if the user got the answer right or wrong.
+- a visual of grid for the board.
+- To be able to get the feed back if i hit the ship and or if i miss it.
+- To be able to see how many attempts i have left.
 - Responsive to all devices sizes.
-- Visually pleasing design and layout.
-- To be abe to register a username and get a alert to state that the usernam has been registered.
-- To change the code easily to create questions.
+- Visually pleasing design and layout with easy to follow instructions.
 
 ## 2. Aims
 
 ### i. User Aims
 
-- To be able to test people's general knowledge.
-- Have the ability to change the questions depending on the clients requirments .
+- To be able to play a simple battle ship game.
+- To play the game and have a different location of ships every time i play.
 - To have easly readable text and scores.
-- Quick navigation from question to question.
-- To get feedback visually and by audio if you got the answer right or wrong.
+- Quick navigation from from input to input.
 
 ### ii. Site Creator Aims
 
-- To be able to register a username.
 - To to be able to get a score at the end to see how well I did.
-- To have the questions in a different order every time you play.
-- To have questions that are easily changed.
-- To for the user to have enough fun to want to come back and beat their last score.
+- For the ships to be randomly placed each time of the game.
+- for the ame to be playable easily.
 
-## 3. UX
+## 3. Technical Design
 
-### i. Structure 
+### i. Flowchart 
 
-The site is structured in a visually appealing manner which draws the eye down the page to submit the users name. The site implements a user freindly navigation with clear and easily readable buttons. The colors compliment the user box and buttons. The buttons and back ground change colour depending on the correct or wrong answer. 
-
-#### Home Page 
-
-On the home page you can see a registration box. Once you have registered it will show an alert to confirm the registration. Then it comes up with the button to start the game. The question comes up with 4 options. You choose the correct answer and the back ground of the buttons go green and the audio says yes. If you get the wrong answer the button goes red and it states audio as wrong. The user name is at the bottom left and the score is below that. The score increases by one if you get the correct answer and if you dont it does not increase. Once all the questions have been answered the it goes to the final page showing the score username and restart button.
-
-#### 404 Page 
-
-This is a black background with white writing and blue link code.
-
-### ii. Design and Colour
-
-![image of website on other devices](documents/colorpallet.JPG)
-
-The site was desinged with background colours that compliment and enhance the images used. The colours are bright, cool tones to reflect the cool colors of correct green and red answers. The design of the site was choosen to instil the emotion of playing a fun game of greens and reds with a blue that compliments the colour.  
-
-### iii. Font
-
-Fantasy with a backup of roboto and sans-serif was used on the page to clearly show the questions and the answer buttons. 
-
-### iv. Wireframes
-
-<details><summary>Start</summary>
-<img src="documents/wireframes/start.png">
-</details>   
-<details><summary>Question</summary>
-<img src="documents/wireframes/question.png">
-</details>         
-<details><summary>result</summary>
-<img src="documents/wireframes/result.png">
-</details>   
+<details><summary>Restart</summary>
+<img src="assets/Flowchart/BATTLESHIPPJ3.jpeg">
+</details> 
 
 ## 4. Features
 

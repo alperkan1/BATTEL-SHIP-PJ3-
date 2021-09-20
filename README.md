@@ -107,60 +107,45 @@
 ## 4. Features
 
 ### i. Board
-- The page opens with the Input asking for Username.
-- You register your username easily with a sleek looking input box.
-- The person then gets a alert to state that they have registered.
+- When the game starts you see the grid lines of the game.
+- The board is easy to read with the grid information.
 
-<details><summary>Register</summary>
-<img src="documents/pageimages/register.JPG">
+<details><summary>Board</summary>
+<img src="assets/IMAGE/board.JPG">
 </details>   
 
-### ii. Start
-- Once registered you then are moved to the Start screen.
+### ii. Hit
+- For every correct answer you get a "X" on the board with a massage to confirm.
 
-<details><summary>Start</summary>
-<img src="documents/pageimages/start.JPG">
+<details><summary>Hit</summary>
+<img src="assets/IMAGE/hit.JPG">
 </details> 
 
-### iii. Question
-- This then moves to the questions with 4 answer buttons.
-- Once you choose your answer if correct background of buttons goes green and audio that states yes.
-- If incorrect the button goes red and the audio states wrong.
-- Then the forward button appears.
-- The username is at the bottom Left.
-- The score is below the username with the score increasing by one for each right answer.
+### iii. Miss
+- For every miss you get "-" on the board and a massage to inform you that you have missed.
 
-<details><summary>Question</summary>
-<img src="documents/pageimages/question.JPG">
-</details> 
-<details><summary>Right Answer</summary>
-<img src="documents/pageimages/right.JPG">
-</details> 
-<details><summary>Wrong Answer</summary>
-<img src="documents/pageimages/wrong.JPG">
+<details><summary>Miss</summary>
+<img src="assets/IMAGE/incorrect.JPG">
 </details> 
 
-### iv. Reset
-- This is the section where your total your final score.
-- Your User name and score is moved to the middle and made larger.
-- The restart button is also at the top to restart the game again.
+### iv. Lose
+- The game informs you when you have run out of turns and that you have lost.
 
-<details><summary>Restart</summary>
-<img src="documents/pageimages/restart.JPG">
+<details><summary>Lose</summary>
+<img src="assets/IMAGE/lose.JPG">
 </details> 
 
 ### v. 404 Page
--The 404 page is a error page where it will redirect the user back to the game.
+-If you get all 5 ships with in the turn you win.
+- Weh you win you get a congradulations massage. 
 
-<details><summary>404 Page</summary>
-<img src="documents/pageimages/404.JPG">
+<details><summary>Win</summary>
+<img src="assets/IMAGE/win.JPG">
 </details>  
 
 ### vi. Features Left To Implement
 - To have a leader board.
-- To use videos as a part of the questions.
-- To be able to select what type of question the user would like to answer.
-- To be able to play a multiplayer game.
+- Game input userame.
 
 ## 5. Technologies Used
 

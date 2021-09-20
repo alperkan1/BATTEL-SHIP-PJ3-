@@ -1,9 +1,9 @@
-# GENERAL KNOWLEDGE GAME   
+# BATTLE SHIP   
 (Developer Alper Kanburoglu)
 
-![image of website on other devices](documents/testscreen.JPG)
+![image of website on other devices](assets/IMAGE/BATTLESHIP.JPG)
 
-[link to live page](https://alperkan1.github.io/JSGENERALQUESTIONGAME/index.html)
+[link to live page](https://dashboard.heroku.com/apps/battleshippj3/deploy/github)
 
 # Contents
 

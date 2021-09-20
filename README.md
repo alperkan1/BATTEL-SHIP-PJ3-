@@ -100,13 +100,13 @@
 
 ### i. Flowchart 
 
-<details><summary>Restart</summary>
+<details><summary>Flowchart</summary>
 <img src="assets/Flowchart/BATTLESHIPPJ3.jpeg">
 </details> 
 
 ## 4. Features
 
-### i. Registry
+### i. Board
 - The page opens with the Input asking for Username.
 - You register your username easily with a sleek looking input box.
 - The person then gets a alert to state that they have registered.
@@ -166,19 +166,16 @@
 
 ### i. Code Used
 
-- CSS
-- HTML
-- JS
+- Python3 
 
 ### ii. Tools and Framework
 
 - Git 
 - Gitpod 
 - Github
-- Balsamiq
-- Google Fonts
-- Font Awsome
-- Google Fonts
+- Heroku
+- Lucid
+
 
 
 ## 6. Testing

@@ -16,9 +16,6 @@
    2. [Site Creator Aims](#ii-site-creator-aims)
 3. [Technical Design](#3-technical-design)
    1. [Flowchart](#i-flowchart)
-   2. [Design and Colour](#ii-design-and-colour)
-   3. [Font](#iii-font)
-   4. [Wireframes](#iv-wireframes)
 4. [Features](#3-Features)
    1. [Registry](#i-registry)
    2. [Start](#ii-start)
@@ -103,37 +100,9 @@
 
 ### i. Flowchart 
 
-The site is structured in a visually appealing manner which draws the eye down the page to submit the users name. The site implements a user freindly navigation with clear and easily readable buttons. The colors compliment the user box and buttons. The buttons and back ground change colour depending on the correct or wrong answer. 
-
-#### Home Page 
-
-On the home page you can see a registration box. Once you have registered it will show an alert to confirm the registration. Then it comes up with the button to start the game. The question comes up with 4 options. You choose the correct answer and the back ground of the buttons go green and the audio says yes. If you get the wrong answer the button goes red and it states audio as wrong. The user name is at the bottom left and the score is below that. The score increases by one if you get the correct answer and if you dont it does not increase. Once all the questions have been answered the it goes to the final page showing the score username and restart button.
-
-#### 404 Page 
-
-This is a black background with white writing and blue link code.
-
-### ii. Design and Colour
-
-![image of website on other devices](documents/colorpallet.JPG)
-
-The site was desinged with background colours that compliment and enhance the images used. The colours are bright, cool tones to reflect the cool colors of correct green and red answers. The design of the site was choosen to instil the emotion of playing a fun game of greens and reds with a blue that compliments the colour.  
-
-### iii. Font
-
-Fantasy with a backup of roboto and sans-serif was used on the page to clearly show the questions and the answer buttons. 
-
-### iv. Wireframes
-
-<details><summary>Start</summary>
-<img src="documents/wireframes/start.png">
-</details>   
-<details><summary>Question</summary>
-<img src="documents/wireframes/question.png">
-</details>         
-<details><summary>result</summary>
-<img src="documents/wireframes/result.png">
-</details>   
+<details><summary>Restart</summary>
+<img src="assets/Flowchart/BATTLESHIPPJ3.jpeg">
+</details> 
 
 ## 4. Features
 

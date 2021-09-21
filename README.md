@@ -210,20 +210,20 @@ on the termnial it will inform you how to enter your guess.
 | ------- | ----|----------|
 |Guess| The aim is tomake sure it is easy for the user to know how toplay the game.| Clear and easy to follow instructions|
 
-<details><summary>Score</summary>
-<img src="documents/pageimages/right.JPG">
+<details><summary>Guess</summary>
+<img src="assets/IMAGE/guess.JPG">
 </details> 
 
-#### As a first time user, I want to be able register my username.
+#### As a first time user, I want to be able to see the grid locations.
 
-On the landing page the first thing you can do is to register your usrname.
+On the terminal you can easly see the entries of your guess with the grids. 
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Username| The aim is give the user the option of choosing a username| works on the index page|
+|Board| The aim is give the user a visual of the board| For every guess the board shows you with a x for hit - for miss |
 
-<details><summary>Register</summary>
-<img src="documents/pageimages/register.JPG">
+<details><summary>Board</summary>
+<img src="assets/IMAGE/board.JPG">
 </details>   
 
 #### As a first time user, I want to be able to re play with questions in a different sequence.

@@ -95,7 +95,7 @@
 ### i. Flowchart 
 
 <details><summary>Flowchart</summary>
-<img src="assets/Flowchart/BATTLESHIPPJ3.jpeg">
+<img src="assets/IMAGE/BATTLESHIP.jpeg">
 </details> 
 
 ## 4. Features

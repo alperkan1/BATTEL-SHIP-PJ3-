@@ -46,7 +46,7 @@ def location_ship():
     row = input("Enter number between: 1-8 \n")
     while row not in "12345678":
         print("Wrong input number out side of 1-8")
-        row = input("Enter number between 1-8")
+        row = input("Enter number between 1-8 \n")
     column = input("Enter a letter between a-h \n").lower()
     while column not in "abcdefgh":
         print("Wrong input letter should be between a-h")

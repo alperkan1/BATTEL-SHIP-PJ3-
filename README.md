@@ -278,11 +278,10 @@ The game will prompt you that the entry was all ready used.
 
 | bugs | Corrections|
 | ------- | --- |
-| Input closing creating a error on the validator| Take the </input> out of the HTML. |
-| When trying to implement the score the for each meant that the correct score went up by 2 and the wrong answer made the score go up by one.| By changing the Javascript and taking the for each functin out the score implements correctly|
-| When trying to implement the sound function the sound replayed| Changed the function to make it only work one|
-| When using smaller devices the text didnt fit.| Change the element with a @media query|
-|The 404 page didnt work.| I had to change the code for the 404 page to implement correctly|
+| Indentations | After using the validator been able to fix the indentation errors|
+| Code error using the wrong board |changing the board on the applications so the right board was used for player and for computer|
+| When entring the same input more than once the turn where reducin |adding additional code to fix the bug |
+
 
 ## 8. Deployment
 
@@ -290,42 +289,42 @@ The site was deployed using GitHub. The page is pubic and can be reached with th
 
 #### Page Deployment
 
-[GitHUb page link](https://github.com/alperkan1/JSGENERALQUESTIONGAME/)
+[Heroku page link](https://dashboard.heroku.com/apps/battleshippj3/deploy/github)
 
-- On git hub go to the settings.
-- Then choose the Pages option on the left hand headings.
-- Choose the branch as master.
-- Then deploy it. It will take a moment and then a link will be created with the massage "your site is published at https://(your github page).github.io//JSGENERALQUESTIONGAME 
-- Then the link is live.
+The website was deployed using Heroku with the follwing steps;
+- On the git pod terminal use the entry "pip freeze -> requiremnts.txt" to save the       libraries need to deploy.
+- Access your Heroku account.
+- Choose new application.
+- Chose a name for your appand click Create app.
+- Click settings add the build packs Python and node.js in that order.  
+- Link it to your github repoitory.
+- Choose the automatic deployment 
+- Click deploy branch.
+- Once loading finished click view.
 
 #### To run you can fork the project form the link below 
 
-[GitHUb page link](https://github.com/alperkan1/JSGENERALQUESTIONGAME)
+[GitHUb page link](https://github.com/alperkan1/BATTEL-SHIP-PJ3-)
 
 - On the top right it will give you the forking option
 
 #### To Clone use the link below  
 
-[GitHUb page link](https://github.com/alperkan1/JSGENERALQUESTIONGAME)
+[GitHUb page link](https://github.com/alperkan1/BATTEL-SHIP-PJ3-)
 
 - Use the Code button
 - Choose your cloning option (HTTPS SSH GITHUB CLI)
 - Using git bash, paste the link.
 - Use the code in your directory.
+- Git clone and paste the url from the clip to https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 
 
 
 ## 9. Credits
 
-Images not referenced are developers images
+Thank you to my tutor Adegbenga Adeye for the insperation and help.
 
-### i. Media
 
-- Audio taken from https://freesound.org/ 
-
-### ii. Code 
-
-- On the js code the score to add 1 was taken from the codes institude love maths essential project.
 
 
 

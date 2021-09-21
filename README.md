@@ -208,7 +208,7 @@ on the termnial it will inform you how to enter your guess.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Guess| The aim is tomake sure it is easy for the user to know how toplay the game.| Clear and easy to follow instructions|
+|Guess| The aim is to make sure it is easy for the user to know how to play the game.| Clear and easy to follow instructions|
 
 <details><summary>Guess</summary>
 <img src="assets/IMAGE/guess.JPG">
@@ -226,29 +226,29 @@ On the terminal you can easly see the entries of your guess with the grids.
 <img src="assets/IMAGE/board.JPG">
 </details>   
 
-#### As a first time user, I want to be able to re play with questions in a different sequence.
+#### As a returning user, I want to be able to guess new location of ships.
 
-Once the game is over and you get your score then you can choose to play again. The questions will then be in a different sequence to the first time you played.
+The squence of the ships on the board changes every time you play.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Restart| The aim is to restart the game | works on all pages|
+|Random| The aim is to randomise the allocation of ships on the grid|Every time the user comes back the ship locations are different |
 
-<details><summary>Restart</summary>
-<img src="documents/pageimages/restart.JPG">
+<details><summary>Random</summary>
+<img src="assets/IMAGE/random.JPG">
 </details> 
 
-#### As a returning user,  I want to be able to get the quesions in a different order.
+#### As a returning user, I want to be able to get feedback from the game when i miss and hit.
 
-The questions change the sequence every time you play.
+You are able to see clearly on the board when you hit(X) or miss(-)
 
-<details><summary>Question</summary>
-<img src="documents/pageimages/question.JPG">
+| Element | Aim | Result |
+| ------- | ----|----------|
+|Hit| The aim is for the user to know if they have hit the ship or not|A X for hit and - for miss will appear on the board |
+
+<details><summary>Hit</summary>
+<img src="assets/IMAGE/hit.JPG">
 </details> 
-
-#### As a returning user, I want to be able to change questions depending what the customer wants.
-
-By making a small change on the JS code it is very easy to implement questions that the user might want.
 
 #### As a returning user, I want to be able to get my score.
 

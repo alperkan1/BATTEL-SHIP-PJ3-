@@ -1,7 +1,7 @@
 # BATTLE SHIP   
 (Developer Alper Kanburoglu)
 
-![image of website on other devices](/workspace/BATTEL-SHIP-PJ3-/assets/IMAGE/BATTLE SHIP.JPG)
+![image of website on other devices](assets/IMAGE/screens.JPG)
 
 [link to live page](https://dashboard.heroku.com/apps/battleshippj3/deploy/github)
 

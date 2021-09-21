@@ -322,6 +322,11 @@ The website was deployed using Heroku with the follwing steps;
 
 ## 9. Credits
 
+### Media
+
+The image of the ship was taken from https://www.asciiart.eu/vehicles/boats.
+
+### Acknowledgments
 Thank you to my tutor Adegbenga Adeye for the insperation and help.
 
 

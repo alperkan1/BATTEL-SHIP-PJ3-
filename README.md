@@ -1,7 +1,7 @@
 # BATTLE SHIP   
 (Developer Alper Kanburoglu)
 
-![image of website on other devices](assets/IMAGE/BATTLESHIP.JPG)
+![image of website on other devices](assets/IMAGE/BATTLE SHIP.JPG)
 
 [link to live page](https://dashboard.heroku.com/apps/battleshippj3/deploy/github)
 
@@ -95,7 +95,7 @@
 ### i. Flowchart 
 
 <details><summary>Flowchart</summary>
-<img src="assets/IMAGE/BATTLESHIP.jpeg">
+<img src="assets/Flowchart/BATTLESHIP.jpeg">
 </details> 
 
 ## 4. Features

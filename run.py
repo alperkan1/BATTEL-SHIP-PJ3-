@@ -67,7 +67,6 @@ def ship_hit(board):
     return hit
 
 ships(MY_BOARD)
-create_board(MY_BOARD)
 turns = 12
 while turns > 0:
     print("TIME for Battle Ship\n")
@@ -92,5 +91,5 @@ while turns > 0:
     if turns == 0:
         print("game over restart")
         break
-# X means you fit the ship
+# X means you hit the ship
 # - means a miss

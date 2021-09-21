@@ -202,13 +202,13 @@ With the import of Randit we are able to program the game randomise the allocati
 <img src="assets/IMAGE/random.JPG">
 </details> 
 
-#### As a first time user, I want to be able to get my score.
+#### As a first time user, I want to be able to enter my guess easily.
 
-On the landing page once you start the game you can track the your score.
+on the termnial it will inform you how to enter your guess.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Score| The aim is to inform thr user how many questions they have gotten correct| works on index page|
+|Guess| The aim is tomake sure it is easy for the user to know how toplay the game.| Clear and easy to follow instructions|
 
 <details><summary>Score</summary>
 <img src="documents/pageimages/right.JPG">

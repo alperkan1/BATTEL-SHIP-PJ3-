@@ -75,6 +75,8 @@ while turns > 0:
     row, column = location_ship()
     if HIS_BOARD[row][column] == "-":
         print("Thats the same entry try again")
+    elif HIS_BOARD[row][column] == "X":
+        print("Thats the same entry try again")    
     elif MY_BOARD[row][column] == "X":
         print("HIT!!! you hit my ship :( ")
         HIS_BOARD[row][column] = "X"

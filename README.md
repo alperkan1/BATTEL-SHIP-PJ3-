@@ -262,16 +262,16 @@ The game will count down from 12 untill every turn is finised.
 <img src="assets/IMAGE/hit.JPG">
 </details>  
 
-#### As a site owner, I want users to be able to have a easy and quick navigation from one question to another.
+#### As a site owner, I want users to be able re request the input if the guess has been guessed before.
 
-With easy to use buttons which have easy to read text allowing the user to navigate.
+The game will prompt you that the entry was all ready used.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Buttons| The aim is to have easy to navigate questions.| works on all pages|
+|Re Enter| The aim is if you enter the same input more than oce the game will allow you to re try.| Works on the terminal|
 
-<details><summary>Buttons</summary>
-<img src="documents/pageimages/question.JPG">
+<details><summary>Re Enter</summary>
+<img src="assets/IMAGE/same.JPG">
 </details> 
 
 ## 7. Bugs

@@ -208,58 +208,58 @@ on the termnial it will inform you how to enter your guess.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Guess| The aim is tomake sure it is easy for the user to know how toplay the game.| Clear and easy to follow instructions|
+|Guess| The aim is to make sure it is easy for the user to know how to play the game.| Clear and easy to follow instructions|
 
-<details><summary>Score</summary>
-<img src="documents/pageimages/right.JPG">
+<details><summary>Guess</summary>
+<img src="assets/IMAGE/guess.JPG">
 </details> 
 
-#### As a first time user, I want to be able register my username.
+#### As a first time user, I want to be able to see the grid locations.
 
-On the landing page the first thing you can do is to register your usrname.
+On the terminal you can easly see the entries of your guess with the grids. 
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Username| The aim is give the user the option of choosing a username| works on the index page|
+|Board| The aim is give the user a visual of the board| For every guess the board shows you with a x for hit - for miss |
 
-<details><summary>Register</summary>
-<img src="documents/pageimages/register.JPG">
+<details><summary>Board</summary>
+<img src="assets/IMAGE/board.JPG">
 </details>   
 
-#### As a first time user, I want to be able to re play with questions in a different sequence.
+#### As a returning user, I want to be able to guess new location of ships.
 
-Once the game is over and you get your score then you can choose to play again. The questions will then be in a different sequence to the first time you played.
-
-| Element | Aim | Result |
-| ------- | ----|----------|
-|Restart| The aim is to restart the game | works on all pages|
-
-<details><summary>Restart</summary>
-<img src="documents/pageimages/restart.JPG">
-</details> 
-
-#### As a returning user,  I want to be able to get the quesions in a different order.
-
-The questions change the sequence every time you play.
-
-<details><summary>Question</summary>
-<img src="documents/pageimages/question.JPG">
-</details> 
-
-#### As a returning user, I want to be able to change questions depending what the customer wants.
-
-By making a small change on the JS code it is very easy to implement questions that the user might want.
-
-#### As a returning user, I want to be able to get my score.
-
-The game add the score and at the end you get your final scre
+The squence of the ships on the board changes every time you play.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Score| The aim is to give the user their score| works on all pages|
+|Random| The aim is to randomise the allocation of ships on the grid|Every time the user comes back the ship locations are different |
 
-<details><summary>Score</summary>
-<img src="documents/pageimages/right.JPG">
+<details><summary>Random</summary>
+<img src="assets/IMAGE/random.JPG">
+</details> 
+
+#### As a returning user, I want to be able to get feedback from the game when i miss and hit.
+
+You are able to see clearly on the board when you hit(X) or miss(-)
+
+| Element | Aim | Result |
+| ------- | ----|----------|
+|Hit| The aim is for the user to know if they have hit the ship or not|A X for hit and - for miss will appear on the board |
+
+<details><summary>Hit</summary>
+<img src="assets/IMAGE/hit.JPG">
+</details> 
+
+#### As a returning user, I want to be able to see how many turns i have left.
+
+The game will count down from 12 untill every turn is finised.
+
+| Element | Aim | Result |
+| ------- | ----|----------|
+|Turns| The aim is to let the user know how many turns they have left| It clearly informs on the terminal|
+
+<details><summary>Turns</summary>
+<img src="assets/IMAGE/hit.JPG">
 </details>  
 
 #### As a site owner, I want users to be able to have a easy and quick navigation from one question to another.

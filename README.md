@@ -250,16 +250,16 @@ You are able to see clearly on the board when you hit(X) or miss(-)
 <img src="assets/IMAGE/hit.JPG">
 </details> 
 
-#### As a returning user, I want to be able to get my score.
+#### As a returning user, I want to be able to see how many turns i have left.
 
-The game add the score and at the end you get your final scre
+The game will count down from 12 untill every turn is finised.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Score| The aim is to give the user their score| works on all pages|
+|Turns| The aim is to let the user know how many turns they have left| It clearly informs on the terminal|
 
-<details><summary>Score</summary>
-<img src="documents/pageimages/right.JPG">
+<details><summary>Turns</summary>
+<img src="documents/pageimages/hit.JPG">
 </details>  
 
 #### As a site owner, I want users to be able to have a easy and quick navigation from one question to another.

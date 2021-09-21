@@ -69,8 +69,13 @@ def ship_hit(board):
 ships(MY_BOARD)
 turns = 12
 while turns > 0:
-    print("TIME for Battle Ship\n")
-    print("Pick your shot")
+    print("""            __/___            
+          _____/______|           
+  _______/_____\_______\_____     
+  \              < < <       |    
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n 
+    TIME TO PLAY BATTLE SHIP       \n""")
+    print("  Pick your shot")
     create_board(HIS_BOARD)
     row, column = location_ship()
     if HIS_BOARD[row][column] == "-":

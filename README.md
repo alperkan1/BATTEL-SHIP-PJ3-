@@ -259,7 +259,7 @@ The game will count down from 12 untill every turn is finised.
 |Turns| The aim is to let the user know how many turns they have left| It clearly informs on the terminal|
 
 <details><summary>Turns</summary>
-<img src="documents/pageimages/hit.JPG">
+<img src="assets/IMAGE/hit.JPG">
 </details>  
 
 #### As a site owner, I want users to be able to have a easy and quick navigation from one question to another.

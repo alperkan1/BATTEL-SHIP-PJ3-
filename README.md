@@ -26,14 +26,8 @@
 5. [Technologies Used](#5-technologies-used)
    1. [Code Used](#i-code-used)
    2. [Tools and Framework](#ii-tools-and-framework)
-6. [Testing](#6-testing)
-   1. [HTML Validation](#i-html-validation)
-   2. [CSS Validation](#ii-css-validation)
-   3. [Accessibility](#iii-accessibility)
-   4. [Speed test](#iv-speed-test)
-   5. [Tests On Devices](#v-tests-on-devices)
-   6. [Browser](#vi-Browser)
-   7. [Have the User Stories Been Answered](#vii-have-the-user-stories-been-answered)
+6. [Validation](#6-validation)
+   1. [PEP8 Validation](#i-pep8-validation)
 7. [Bugs](#7-bugs)
 8. [Deployment](#8-deployment)
 9. [Credits](#9-credits)
@@ -163,62 +157,14 @@
 
 
 
-## 6. Testing
+## 6. Validation
 
-### i. HTML Validation
+### i. PEP8 Validation
 
-The W3C Markup Validation Service used to validate the HTML code. No warning or errors showing.
+The pep8 (http://pep8online.com) validation tool was used to test the code. No bugs where found.
 
-<details><summary>Home</summary>
-<img src="documents/htmltest/index.JPG">
-</details> 
-
-<details><summary>404</summary>
-<img src="documents/htmltest/404.JPG">
-</details>
-
-### ii. CSS Validation
-
-W3C jigsaw Validation was used to test the code with a direct input. 4 warning and no errors are showing.
-
-<details><summary>CSS Validation</summary>
-<img src="documents/csstest/csstest.JPG">
-</details>
-
-### iii. Accessibility
-
-The WAVE WebAIM acessibility tool was used to confirm check that the site is up to standart with 0 errors.
-
-<details><summary>Home</summary>
-<img src="documents/Acess/home.JPG">
-</details> 
-
-<details><summary>404</summary>
-<img src="documents/Acess/404a.JPG">
-</details>
-
-### iv. Speed test
-
-Google Lighthouse was used to speed test for mobile devices and for destop. All pages performed above 90%.
-
-#### Mobile device
-
-<details><summary>Home</summary>
-<img src="documents//speedtest/indexspeedm.JPG">
-</details> 
-
-<details><summary>404</summary>
-<img src="documents/speedtest/404speedm.JPG">
-</details> 
-
-#### Desktop
-
-<details><summary>Home</summary>
-<img src="documents//speedtest/indexspeed.JPG">
-</details> 
-
-<details><summary>404</summary>
-<img src="documents/speedtest/404speed.JPG">
+<details><summary>run.py</summary>
+<img src="assets/IMAGE/pep8.JPG">
 </details> 
 
 ### v. Testing on Devices

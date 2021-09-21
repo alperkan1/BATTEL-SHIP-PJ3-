@@ -28,6 +28,9 @@
    2. [Tools and Framework](#ii-tools-and-framework)
 6. [Validation](#6-validation)
    1. [PEP8 Validation](#i-pep8-validation)
+   2. [Testing on Devices](#ii-testing-on-devices)
+   3. [Browser](#iii-browser)
+   4. [iv. Have the User Stories Been Answered](#iv-have-the-user-stories-been-answered)
 7. [Bugs](#7-bugs)
 8. [Deployment](#8-deployment)
 9. [Credits](#9-credits)
@@ -167,7 +170,7 @@ The pep8 (http://pep8online.com) validation tool was used to test the code. No b
 <img src="assets/IMAGE/pep8.JPG">
 </details> 
 
-### v. Testing on Devices
+### ii. Testing on Devices
 
 I used the inspect tool on Google Chrome to test the responsiveness on different devices.
 
@@ -176,7 +179,7 @@ I used the inspect tool on Google Chrome to test the responsiveness on different
 - Lenova ThinkPad
 - Windows Surface Pro 5 
 
-### vi. Browser
+### iii. Browser
 
 The site is working on the follwing browsers
 
@@ -185,7 +188,7 @@ The site is working on the follwing browsers
 - Microsoft Explorer 
 - Mozilla Firefox
 
-### vii. Have the User Stories Been Answered
+### iv. Have the User Stories Been Answered
 
 #### - As a first time user, I want to be able play a game that is different each time.
 

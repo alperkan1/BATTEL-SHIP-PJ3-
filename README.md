@@ -187,24 +187,17 @@ The site is working on the follwing browsers
 
 ### vii. Have the User Stories Been Answered
 
-#### As a first time user, I want to be able answers question and be notified if correct or not.
+#### - As a first time user, I want to be able play a game that is different each time.
 
-Once you answer a question the button or the background changes and audio states if you are correct or wrong.
+With the import of Randit we are able to program the game randomise the allocation of the ships .
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Answer| The aim is to inform the user if the answer is correct or wrong| works with every question|
+|Random| The aim is to make the game more chalenging| Every time you play the location of the ships change|
 
-<details><summary>Question</summary>
-<img src="documents/pageimages/question.JPG">
+<details><summary>Random</summary>
+<img src="assets/IMAGE/random.JPG">
 </details> 
-<details><summary>Right Answer</summary>
-<img src="documents/pageimages/right.JPG">
-</details> 
-<details><summary>Wrong Answer</summary>
-<img src="documents/pageimages/wrong.JPG">
-</details> 
-
 
 #### As a first time user, I want to be able to get my score.
 

@@ -45,7 +45,7 @@
 - A site for people who are looking to play a simple enjoyable game.
 - A fun site of luck.
 - It is for people who are competitive and like to win.
-- For people who like a interactive game.
+- For people who like an interactive game.
 
 
 ### ii. User Stories
@@ -54,14 +54,14 @@
 
 - As a first time user, I want to be able play a game that is different each time.
 - As a first time user, I want to be able to enter my guess easily.
-- As a first time user, I want to be able to know when i win.
+- As a first time user, I want to be able to know when I win.
 - As a first time user, I want to be able to see the grid locations.
 
 #### Returning User
 
-- As a returning user, I want to be able to guess new location of ships. 
-- As a returning user, I want to be able to get feedback from the game when i miss and hit.
-- As a returning user, I want to be able to see how many turns i have left.
+- As a returning user, I want to be able to guess the new location of ships. 
+- As a returning user, I want to be able to get feedback from the game when I miss and hit.
+- As a returning user, I want to be able to see how many turns I have left.
 
 #### Site Owner 
 
@@ -72,9 +72,9 @@
 
 ### iii. User Requirement
 
-- a visual of grid for the board.
-- To be able to get the feed back if i hit the ship and or if i miss it.
-- To be able to see how many attempts i have left.
+- A visual of grid for the board.
+- To be able to get the feedback if I hit the ship and or if I miss it.
+- To be able to see how many attempts I have left.
 - Responsive to all devices sizes.
 - Visually pleasing design and layout with easy to follow instructions.
 
@@ -82,16 +82,16 @@
 
 ### i. User Aims
 
-- To be able to play a simple battle ship game.
-- To play the game and have a different location of ships every time i play.
-- To have easly readable text and scores.
+- To be able to play a simple battleship game.
+- To play the game and have a different location of ships every time I play.
+- To have easily readable text and scores.
 - Quick navigation from from input to input.
 
 ### ii. Site Creator Aims
 
 - To to be able to get a score at the end to see how well I did.
 - For the ships to be randomly placed each time of the game.
-- for the ame to be playable easily.
+- For the game to be playable easily.
 
 ## 3. Technical Design
 
@@ -119,7 +119,7 @@
 </details> 
 
 ### iii. Miss
-- For every miss you get "-" on the board and a massage to inform you that you have missed.
+- For every miss you get "-" on the board and a message to inform you that you have missed.
 
 <details><summary>Miss</summary>
 <img src="assets/IMAGE/incorrect.JPG">
@@ -133,8 +133,8 @@
 </details> 
 
 ### v. Win
--If you get all 5 ships with in the turn you win.
-- Weh you win you get a congradulations massage. 
+- If you get all 5 ships within the turn, you win.
+- When you win you get a congratulations message. 
 
 <details><summary>Win</summary>
 <img src="assets/IMAGE/win.JPG">
@@ -192,11 +192,11 @@ The site is working on the follwing browsers
 
 #### - As a first time user, I want to be able play a game that is different each time.
 
-With the import of Randit we are able to program the game randomise the allocation of the ships .
+With the import of Randit we are able to program the game randomise the allocation of the ships.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Random| The aim is to make the game more chalenging| Every time you play the location of the ships change|
+|Random| The aim is to make the game more challenging| Every time you play the location of the ships change|
 
 <details><summary>Random</summary>
 <img src="assets/IMAGE/random.JPG">
@@ -204,7 +204,7 @@ With the import of Randit we are able to program the game randomise the allocati
 
 #### As a first time user, I want to be able to enter my guess easily.
 
-on the termnial it will inform you how to enter your guess.
+On the termnial it will inform you how to enter your guess.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
@@ -216,7 +216,7 @@ on the termnial it will inform you how to enter your guess.
 
 #### As a first time user, I want to be able to see the grid locations.
 
-On the terminal you can easly see the entries of your guess with the grids. 
+On the terminal you can easily see the entries of your guess with the grids. 
 
 | Element | Aim | Result |
 | ------- | ----|----------|
@@ -228,17 +228,17 @@ On the terminal you can easly see the entries of your guess with the grids.
 
 #### As a returning user, I want to be able to guess new location of ships.
 
-The squence of the ships on the board changes every time you play.
+The sequence of the ships on the board changes every time you play.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Random| The aim is to randomise the allocation of ships on the grid|Every time the user comes back the ship locations are different |
+|Random| The aim is to randomise the allocation of ships on the grid|Every time the user comes back the ship, locations are different |
 
 <details><summary>Random</summary>
 <img src="assets/IMAGE/random.JPG">
 </details> 
 
-#### As a returning user, I want to be able to get feedback from the game when i miss and hit.
+#### As a returning user, I want to be able to get feedback from the game when I miss and hit.
 
 You are able to see clearly on the board when you hit(X) or miss(-)
 
@@ -250,9 +250,9 @@ You are able to see clearly on the board when you hit(X) or miss(-)
 <img src="assets/IMAGE/hit.JPG">
 </details> 
 
-#### As a returning user, I want to be able to see how many turns i have left.
+#### As a returning user, I want to be able to see how many turns I have left.
 
-The game will count down from 12 untill every turn is finised.
+The game will count down from 12 until every turn is finished.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
@@ -264,11 +264,11 @@ The game will count down from 12 untill every turn is finised.
 
 #### As a site owner, I want users to be able re request the input if the guess has been guessed before.
 
-The game will prompt you that the entry was all ready used.
+The game will prompt you that the entry was already used.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Re Enter| The aim is if you enter the same input more than oce the game will allow you to re try.| Works on the terminal|
+|Re Enter| The aim is if you enter the same input more than once the game will allow you to retry.| Works on the terminal|
 
 <details><summary>Re Enter</summary>
 <img src="assets/IMAGE/same.JPG">
@@ -280,24 +280,24 @@ The game will prompt you that the entry was all ready used.
 | ------- | --- |
 | Indentations | After using the validator been able to fix the indentation errors|
 | Code error using the wrong board |changing the board on the applications so the right board was used for player and for computer|
-| When entring the same input more than once the turn where reducin |adding additional code to fix the bug |
+| When entring the same input more than once the turn where reducing |adding additional code to fix the bug |
 
 
 ## 8. Deployment
 
-The site was deployed using GitHub. The page is pubic and can be reached with the below link.
+The site was deployed using GitHub. The page is public and can be reached with the below link.
 
 #### Page Deployment
 
 [Heroku page link](https://dashboard.heroku.com/apps/battleshippj3/deploy/github)
 
 The website was deployed using Heroku with the follwing steps;
-- On the git pod terminal use the entry "pip freeze -> requiremnts.txt" to save the       libraries need to deploy.
+- On the git pod terminal use the entry "pip freeze -> requiremnts.txt" to save the libraries needed to deploy.
 - Access your Heroku account.
 - Choose new application.
-- Chose a name for your appand click Create app.
+- Choose a name for your appand click Create app.
 - Click settings add the build packs Python and node.js in that order.  
-- Link it to your github repoitory.
+- Link it to your github repository.
 - Choose the automatic deployment 
 - Click deploy branch.
 - Once loading finished click view.
@@ -327,7 +327,7 @@ The website was deployed using Heroku with the follwing steps;
 The image of the ship was taken from https://www.asciiart.eu/vehicles/boats.
 
 ### Acknowledgments
-Thank you to my tutor Adegbenga Adeye for the insperation and help.
+Thank you to my tutor Adegbenga Adeye for the inspiration and help.
 
 
 
